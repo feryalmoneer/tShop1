@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto Serif', serif;
+    height: 7777px;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+ul
+{ 
+    list-style-type: none;
+
+}
+header
+{
+    background: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    padding: 20px 0;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+}
+header nav
+{
+    flex-grow: 1;
+}
+.container
+{
+    width: calc(100%-120px);
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+header .logo
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+.logo img
+{
+    width:30px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.active
+{
+    font-weight: 800;
+}
+.auth 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+ header .auth a
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5.354px 30px;
+    
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+
+}
+.auth .login
+{
+    border-radius: 15px;
+    border: 2px solid cornflowerblue;
+    color: cornflowerblue;
+
+}
+.auth .register
+{
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+
+}
